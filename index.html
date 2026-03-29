@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Websites</title>
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- header design   -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="home1.png" alt="Mukul Kumar" class="logo-image">
+            <a href="#" class="logo">My Portfolio</a>
+        </div>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#coding-achievements">Coding</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mukul Kumar</h1>
+            <h3>And I'm a <span class="multi-text"></span></h3>
+            <p>I'm a passionate web developer specializing in creating modern and responsive websites.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+
+            </div>
+            <a href="#about" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home1.png" alt="home image">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about2.png" alt="about image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>Hi, I’m a passionate web developer skilled in React, TypeScript, and MySQL. I enjoy building modern, user-friendly applications and turning ideas into real-world projects.
+I’ve worked on projects like an AI tools platform with features such as authentication, search, and admin management. I’m also continuously improving my problem-solving skills through Data Structures & Algorithms.
+My goal is to grow as a full-stack developer and build impactful, high-quality applications.
+</p>
+            <a href="#skills" class="btn">Read More</a>
+        </div>
+    </section>
+
+<!--skills section design-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skills-icon">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <div class="skills-list">
+                    <span class="skill-item">HTML/Tailwind CSS</span>
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">React.js</span>
+                    
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-progress="90"></div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <p>Creating beautiful, responsive, and user-friendly interfaces with modern frontend technologies.</p>
+                <a href="#" class="btn">View Projects</a>
+            </div>
+            <div class="skills-box">
+                <div class="skills-icon">
+                    <i class='bx bx-server'></i>
+                </div>
+                <h3>Backend Development</h3>
+                <div class="skills-list">
+                    <span class="skill-item">Node.js</span>
+                    <span class="skill-item">Express.js</span>
+                    <span class="skill-item">REST APIs</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-progress="85"></div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <p>Building scalable and secure backend systems with robust API architectures.</p>
+                <a href="#" class="btn">View Projects</a>
+            </div> 
+            <div class="skills-box">
+                <div class="skills-icon">
+                    <i class='bx bx-data'></i>
+                </div>
+                <h3>Database Management</h3>
+                <div class="skills-list">
+                    <span class="skill-item">MySQL</span>
+                    <span class="skill-item">MongoDB</span>
+                    <span class="skill-item">PostgreSQL</span>
+                </div>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-progress="80"></div>
+                    <span class="progress-text">80%</span>
+                </div>
+                <p>Designing and optimizing database systems for efficient data storage and retrieval.</p>
+                <a href="#" class="btn">View Projects</a>
+            </div>
+            
+    </section>
+
+    <!--Certifications & Achievements section design-->
+    <section class="certifications" id="certifications">
+        <h2 class="heading">Certifications & <span>Achievements</span></h2>
+        <div class="certifications-container">
+            <div class="cert-box">
+                <div class="cert-icon">
+                    <i class='bx bx-award'></i>
+                </div>
+                <h3>Professional Certificates</h3>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>Generative AI</h4>
+                            <p>Microsoft and LinkedIn</p>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class='bx bx-certification'></i>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>React Developer Certification</h4>
+                            <p>Meta - React</p>
+                            <span class="cert-date">2026</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class='bx bx-certification'></i>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>Cloud Computing Fundamentals</h4>
+                            <p>LinkedIn Learning</p>
+                            <span class="cert-date">2026</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class='bx bx-certification'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cert-box">
+                <div class="cert-icon">
+                    <i class='bx bx-trophy'></i>
+                </div>
+                <h3>Awards & Recognitions</h3>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>Certification Of Participation</h4>
+                            <p>TechNova Hackathon 2026</p>
+                            <span class="cert-date">2026</span>
+                        </div>
+                        <div class="cert-badge award">
+                            <i class='bx bx-medal'></i>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>Certification Of Participation</h4>
+                            <p>DPI Hackathon </p>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <div class="cert-badge award">
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>Communication Skills</h4>
+                            <p>Communication Skills</p>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <div class="cert-badge award">
+                            <i class='bx bx-ribbon'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cert-box">
+                <div class="cert-icon">
+                    <i class='bx bx-book-open'></i>
+                </div>
+                <h3>Online Course Completions</h3>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>Advanced JavaScript</h4>
+                            <p>CodeHelp By Love Babbar</p>
+                            <span class="cert-date">2026</span>
+                        </div>
+                        <div class="cert-badge course">
+                            <i class='bx bx-check-circle'></i>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>React</h4>
+                            <p>CodeHelp By Love Babbar</p>
+                            <span class="cert-date">2026</span>
+                        </div>
+                        <div class="cert-badge course">
+                            <i class='bx bx-check-circle'></i>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-info">
+                            <h4>DSA</h4>
+                            <p>CodeHelp By Love Babbar</p>
+                            <span class="cert-date">2026</span>
+                        </div>
+                        <div class="cert-badge course">
+                            <i class='bx bx-check-circle'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Coding Achievements & Contests section design-->
+    <section class="coding-achievements" id="coding-achievements">
+        <h2 class="heading">Coding <span>Achievements</span></h2>
+        <div class="coding-container">
+            <div class="coding-box">
+                <div class="coding-icon">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>DSA Problem Solving</h3>
+                <div class="coding-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">300+</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">85%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.8</div>
+                        <div class="stat-label">Avg Difficulty</div>
+                    </div>
+                </div>
+                <div class="platform-list">
+                    <div class="platform-item">
+                        <i class='bx bxl-leetcode'></i>
+                        <div class="platform-info">
+                            <h4>LeetCode</h4>
+                            <p>100+ Problems • Rating: 1550</p>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <i class='bx bxl-codepen'></i>
+                        <div class="platform-info">
+                            <h4>CodeChef</h4>
+                            <p>100+ Problems • 3 Star Rating</p>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <i class='bx bxl-github'></i>
+                        <div class="platform-info">
+                            <h4>GFG</h4>
+                            <p>100+ Problems • 5 Star Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="coding-box">
+                <div class="coding-icon">
+                    <i class='bx bx-trophy'></i>
+                </div>
+                <h3>Contest Achievements</h3>
+                <div class="contest-list">
+                    <div class="contest-item">
+                        <div class="contest-info">
+                            <h4>LeetCode Weekly Contest</h4>
+                            <p>Rank #245 out of 15,000+ participants</p>
+                            <span class="contest-date">March 2026</span>
+                        </div>
+                        <div class="contest-badge gold">
+                            <i class='bx bx-medal'></i>
+                        </div>
+                    </div>
+                    <div class="contest-item">
+                        <div class="contest-info">
+                            <h4>CodeChef Starters</h4>
+                            <p>Top 5% Global Ranking • Division 2</p>
+                            <span class="contest-date">February 2026</span>
+                        </div>
+                        <div class="contest-badge silver">
+                            <i class='bx bx-award'></i>
+                        </div>
+                    </div>
+                    <div class="contest-item">
+                        <div class="contest-info">
+                            <h4>LeetCode POTD</h4>
+                            <p>Solved 50+ Problems • Daily Consistency</p>
+                            <span class="contest-date">January 2026</span>
+                        </div>
+                        <div class="contest-badge bronze">
+                            <i class='bx bx-ribbon'></i>
+                        </div>
+                    </div>
+                    <div class="contest-item">
+                        <div class="contest-info">
+                            <h4>GFG POTD</h4>
+                            <p>Solved 50+ Problems • Daily Consistency</p>
+                            <span class="contest-date">December 2025</span>
+                        </div>
+                        <div class="contest-badge special">
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="coding-box">
+                <div class="coding-icon">
+                    <i class='bx bx-chart'></i>
+                </div>
+                <h3>Skills & Progress</h3>
+                <div class="skill-progress-list">
+                    <div class="skill-progress-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Algorithms</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-progress-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Data Structures</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-progress-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Problem Solving</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill" data-progress="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-progress-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Time Complexity</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill" data-progress="82"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coding-links">
+                    <a href="#" class="btn primary"><i class='bx bx-link-external'></i>View Profiles</a>
+                    <a href="#" class="btn secondary"><i class='bx bx-code-block'></i>View Solutions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects section design-->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class='bx bx-globe'></i>
+                    </div>
+                    <div class="project-title-info">
+                        <h3>Portfolio Website</h3>
+                        <span class="project-type">Personal Project</span>
+                    </div>
+                </div>
+                <div class="projects-content">
+                    <p>A personal portfolio website showcasing my projects, skills, and experience. Built with modern web technologies and responsive design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-item">
+                            <i class='bx bx-time-five'></i>
+                            <span>2 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-code-alt'></i>
+                            <span>100% Code</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-star'></i>
+                            <span>Featured</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary"><i class='bx bx-link-external'></i>Live Demo</a>
+                        <a href="#" class="btn secondary"><i class='bx bxl-github'></i>GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class='bx bx-target-lock'></i>
+                    </div>
+                    <div class="project-title-info">
+                        <h3>Streak Aura</h3>
+                        <span class="project-type">Habit Tracker</span>
+                    </div>
+                </div>
+                <div class="projects-content">
+                    <p>A habit tracking and streak maintenance app that helps users build consistent daily habits with reminders and progress tracking.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-item">
+                            <i class='bx bx-time-five'></i>
+                            <span>3 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-code-alt'></i>
+                            <span>Frontend</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-star'></i>
+                            <span>Popular</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary"><i class='bx bx-link-external'></i>Live Demo</a>
+                        <a href="#" class="btn secondary"><i class='bx bxl-github'></i>GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class='bx bx-file'></i>
+                    </div>
+                    <div class="project-title-info">
+                        <h3>Resume Builder</h3>
+                        <span class="project-type">Productivity Tool</span>
+                    </div>
+                </div>
+                <div class="projects-content">
+                    <p>A responsive resume builder that allows users to create, customize, and download professional resumes in minutes.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-item">
+                            <i class='bx bx-time-five'></i>
+                            <span>2 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-code-alt'></i>
+                            <span>Frontend</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-star'></i>
+                            <span>Featured</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary"><i class='bx bx-link-external'></i>Live Demo</a>
+                        <a href="#" class="btn secondary"><i class='bx bxl-github'></i>GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class='bx bx-bot'></i>
+                    </div>
+                    <div class="project-title-info">
+                        <h3>AI Tools & Productivity</h3>
+                        <span class="project-type">AI Platform</span>
+                    </div>
+                </div>
+                <div class="projects-content">
+                    <p>A collection of AI-powered tools and productivity applications built with modern web technologies.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-item">
+                            <i class='bx bx-time-five'></i>
+                            <span>4 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-code-alt'></i>
+                            <span>Full Stack</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-star'></i>
+                            <span>Trending</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary"><i class='bx bx-link-external'></i>Live Demo</a>
+                        <a href="#" class="btn secondary"><i class='bx bxl-github'></i>GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class='bx bx-group'></i>
+                    </div>
+                    <div class="project-title-info">
+                        <h3>TeamSync - Teammate Finder</h3>
+                        <span class="project-type">Social Platform</span>
+                    </div>
+                </div>
+                <div class="projects-content">
+                    <p>A platform that helps teams find and connect with teammates for collaborative projects and events.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-item">
+                            <i class='bx bx-time-five'></i>
+                            <span>5 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-code-alt'></i>
+                            <span>Full Stack</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-star'></i>
+                            <span>New</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary"><i class='bx bx-link-external'></i>Live Demo</a>
+                        <a href="#" class="btn secondary"><i class='bx bxl-github'></i>GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class='bx bx-code-block'></i>
+                    </div>
+                    <div class="project-title-info">
+                        <h3>Code Conquest</h3>
+                        <span class="project-type">Coding Platform</span>
+                    </div>
+                </div>
+                <div class="projects-content">
+                    <p>A competitive programming platform where users can solve coding challenges, participate in contests, and improve their algorithmic skills.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-item">
+                            <i class='bx bx-time-five'></i>
+                            <span>6 Weeks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-code-alt'></i>
+                            <span>Full Stack</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class='bx bx-star'></i>
+                            <span>Advanced</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary"><i class='bx bx-link-external'></i>Live Demo</a>
+                        <a href="#" class="btn secondary"><i class='bx bxl-github'></i>GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Your Phone Number" required>
+                    <input type="text" placeholder="Email Subject" required>
+                </div>
+                <div class="input-box">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+               </div>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2026 Mukul Kumar | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script src="script.js"></script>
+ 
+</body>
+</html>
